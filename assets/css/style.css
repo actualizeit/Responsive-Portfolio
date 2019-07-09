@@ -17,6 +17,7 @@ body {
     display:flex;
     justify-content: space-between;
     z-index: 10000;
+    margin: 0 20px 100px 0;
 }
 
 .MyNameBackground {
@@ -66,7 +67,7 @@ body{
     border-style: solid;
     border-color: #dddddd;
     border-width: 1px;
-    margin: 120px 10% 80px 10%;
+    margin: 120px 10% 120px 10%;
     padding: 10pt;
     overflow: auto;
     max-width: 500px;
@@ -257,9 +258,11 @@ input[type=submit] {
     @media screen and (max-width: 640px) {
         .Header{
             position: static;
+            margin-left:-10px;
         }
         .Footer{
             position: static;
+            margin-left: -10px;
         }
         .MyNameBackground{
             display:inline-block;
@@ -287,7 +290,7 @@ input[type=submit] {
 
         }
         .MainContent{
-            margin: 120px 1% 80px 1%;
+            margin: -80px 1% 20px 1%;
             
         }
         .PItem{
