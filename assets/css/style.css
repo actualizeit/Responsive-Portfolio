@@ -233,3 +233,24 @@ input[type=submit] {
     -o-transform: rotate(-10deg);
     transform: rotate(-10deg);
   }
+
+    @media screen and (max-width: 980px) {
+        .MyNameBackground{
+            background: yellow;
+            display:flex;
+        } 
+    }
+
+    @media screen and (max-width: 768px) {
+        .MyNameBackground{
+            background: purple;
+            display:flex;
+        }
+}
+
+    @media screen and (max-width: 640px) {
+        .MyNameBackground{
+            background: red;
+            display:flex;
+        }
+    }
