@@ -79,7 +79,7 @@ body{
     height: 10px;
     width: 100%;
     float:bottom;
-    position: fixed;
+    position: absolute;
 }
 
 .Divider2{
@@ -99,7 +99,9 @@ body{
 .Footer{
     background: #666666;
     height: 80px;
+    line-height: 80px;
     text-align: center;
+    /* vertical-align: middle; */
     color:lightgray;
     width: 100%;
     position: fixed;
@@ -235,6 +237,10 @@ input[type=submit] {
     -o-transform: rotate(-10deg);
     transform: rotate(-10deg);
   }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+  }
 
     @media screen and (max-width: 980px) {
         .MyNameBackground{
@@ -250,6 +256,9 @@ input[type=submit] {
 
     @media screen and (max-width: 640px) {
         .Header{
+            position: static;
+        }
+        .Footer{
             position: static;
         }
         .MyNameBackground{
