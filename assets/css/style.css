@@ -250,7 +250,32 @@ input[type=submit] {
 
     @media screen and (max-width: 640px) {
         .MyNameBackground{
-            background: red;
+            display:inline-block;
+            width:100%;
+            background-color: red;
             display:flex;
+            margin:0;
+            position: fixed;
+            top: 0px;
+            left:0px;
+            text-align: center;
+            height:50px;
+
         }
+        .MyName{
+            font-size: 14pt;
+            position: fixed;
+            top:-10px;
+            left:middle;
+        }
+        .Nav{
+            float: left;
+            margin:0;
+            position: fixed;
+            top: 50px;
+            left:middle;
+
+        }
+        .MainContent{
+            margin: 120px 1% 80px 1%;        }
     }
